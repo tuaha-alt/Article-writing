@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact – TechSphere</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+    <link rel="icon" href="logo.svg" type="image/svg">
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-section">
+            <a href="index.html"><img src="logo.svg" alt="TechSphere Logo" class="logo" /></a>
+            <a href="index.html"><h1>TechSphere</h1></a>
+        </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="contact-container">
+      <h2 class="section-title">Get in Touch</h2>
+
+      <div class="contact-card">
+        <p class="contact-text">
+          Have a question, suggestion, or collaboration idea? Send us a message
+          using the form below.
+        </p>
+
+        <form
+          class="contact-form"
+          action="#"
+          method="POST"
+          name="contact"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+        <p
+          id="success-msg"
+          style="color: #00aaff; display: none; margin-top: 15px"
+        >
+          Thanks! Your message has been sent.
+        </p>
+
+        <script>
+          document
+            .querySelector("form")
+            .addEventListener("submit", function (e) {
+              const msg = document.getElementById("success-msg");
+              msg.style.display = "block";
+            });
+        </script>
+
+        <div class="contact-social">
+          <p>Or reach us on:</p>
+          <a href="#" target="_blank">Twitter</a> |
+          <a href="#" target="_blank">LinkedIn</a> |
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 TechSphere. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
