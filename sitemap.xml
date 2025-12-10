@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://yoursite.com/html/index.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Category Pages -->
+    <url>
+        <loc>https://yoursite.com/html/categories.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Article Pages -->
+    <url>
+        <loc>https://yoursite.com/html/article.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/html/article2.html</loc>
+        <lastmod>2025-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/html/article3.html</loc>
+        <lastmod>2025-12-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Category Pages -->
+    <url>
+        <loc>https://yoursite.com/html/artificialint.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/html/Programming.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/html/Gadgets.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/html/cyber.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/html/web.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/html/technews.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Info Pages -->
+    <url>
+        <loc>https://yoursite.com/html/about.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/html/contact.html</loc>
+        <lastmod>2025-12-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>
